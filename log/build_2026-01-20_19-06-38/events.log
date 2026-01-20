@@ -1,0 +1,161 @@
+[0.000000] (-) TimerEvent: {}
+[0.001138] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.001799] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.002018] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.002082] (cpp_srvcli) JobQueued: {'identifier': 'cpp_srvcli', 'dependencies': OrderedDict()}
+[0.002173] (cpp_srvcli) JobStarted: {'identifier': 'cpp_srvcli'}
+[0.022771] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'cmake'}
+[0.025066] (cpp_srvcli) Command: {'cmd': ['/usr/bin/cmake', '/UROV/src/cpp_srvcli', '-DCMAKE_INSTALL_PREFIX=/UROV/install/cpp_srvcli'], 'cwd': '/UROV/build/cpp_srvcli', 'env': OrderedDict({'HOSTNAME': '119e6a9413fa', 'GIT_ASKPASS': '/vscode/vscode-server/bin/linux-x64/585eba7c0c34fd6b30faac7c62a42050bfbc0086/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/vscode/vscode-server/bin/linux-x64/585eba7c0c34fd6b30faac7c62a42050bfbc0086/bin/helpers/browser.sh', 'HOME': '/home/ubuntu', 'OLDPWD': '/UROV/src/cpp_srvcli/src', 'TERM_PROGRAM_VERSION': '1.108.1', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-3b237718-c133-42fc-a04b-3b40d0d60934.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/vscode/vscode-server/bin/linux-x64/585eba7c0c34fd6b30faac7c62a42050bfbc0086/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/vscode/vscode-server/bin/linux-x64/585eba7c0c34fd6b30faac7c62a42050bfbc0086/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'WAYLAND_DISPLAY': 'vscode-wayland-be0825c9-c2ce-4678-b350-ea63e5495e5e.sock', 'COLCON_PREFIX_PATH': '/UROV/install', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-b1272638-5f1b-4166-a81b-7d7caaa895e6.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/vscode/vscode-server/bin/linux-x64/585eba7c0c34fd6b30faac7c62a42050bfbc0086/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/tmp/user/1000', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-b1272638-5f1b-4166-a81b-7d7caaa895e6.sock","/tmp/.X11-unix/X1","/home/ubuntu/.gnupg/S.gpg-agent"]', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/user/1000/vscode-git-274dccfea8.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-b1272638-5f1b-4166-a81b-7d7caaa895e6.sock', 'AMENT_PREFIX_PATH': '/UROV/install/py_srvcli:/UROV/install/py_pubsub:/UROV/install/cpp_pubsub:/opt/ros/jazzy', 'REMOTE_CONTAINERS_DISPLAY_SOCK': '/tmp/.X11-unix/X1', 'SHELL': '/bin/bash', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/UROV/build/cpp_srvcli', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/UROV/install/py_srvcli/lib/python3.12/site-packages:/UROV/install/py_pubsub/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/UROV/install/cpp_pubsub:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/UROV/install/py_srvcli:/UROV/install/py_pubsub:/opt/ros/jazzy'}), 'shell': False}
+[0.099555] (-) TimerEvent: {}
+[0.200106] (-) TimerEvent: {}
+[0.288337] (cpp_srvcli) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.300221] (-) TimerEvent: {}
+[0.400629] (-) TimerEvent: {}
+[0.452912] (cpp_srvcli) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.492413] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.500784] (-) TimerEvent: {}
+[0.601211] (-) TimerEvent: {}
+[0.701731] (-) TimerEvent: {}
+[0.708648] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.730763] (cpp_srvcli) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.731883] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.733331] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.754942] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.801904] (-) TimerEvent: {}
+[0.902378] (-) TimerEvent: {}
+[1.002964] (-) TimerEvent: {}
+[1.003625] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.025569] (cpp_srvcli) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.026300] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.027387] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.039034] (cpp_srvcli) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.103116] (-) TimerEvent: {}
+[1.203577] (-) TimerEvent: {}
+[1.304039] (-) TimerEvent: {}
+[1.395521] (cpp_srvcli) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.404320] (-) TimerEvent: {}
+[1.504828] (-) TimerEvent: {}
+[1.605340] (-) TimerEvent: {}
+[1.699124] (cpp_srvcli) StdoutLine: {'line': b'-- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.705459] (-) TimerEvent: {}
+[1.805857] (-) TimerEvent: {}
+[1.832578] (cpp_srvcli) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.876086] (cpp_srvcli) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.905986] (-) TimerEvent: {}
+[1.927012] (cpp_srvcli) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.982813] (cpp_srvcli) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.006124] (-) TimerEvent: {}
+[2.106511] (-) TimerEvent: {}
+[2.198989] (cpp_srvcli) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[2.206631] (-) TimerEvent: {}
+[2.209416] (cpp_srvcli) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.306958] (-) TimerEvent: {}
+[2.407458] (-) TimerEvent: {}
+[2.444499] (cpp_srvcli) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[2.488157] (cpp_srvcli) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[2.507578] (-) TimerEvent: {}
+[2.541724] (cpp_srvcli) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.607826] (-) TimerEvent: {}
+[2.708221] (-) TimerEvent: {}
+[2.755159] (cpp_srvcli) StdoutLine: {'line': b'-- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)\n'}
+[2.808378] (-) TimerEvent: {}
+[2.908776] (-) TimerEvent: {}
+[2.914777] (cpp_srvcli) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[3.008870] (-) TimerEvent: {}
+[3.109258] (-) TimerEvent: {}
+[3.168737] (cpp_srvcli) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.169102] (cpp_srvcli) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[3.169268] (cpp_srvcli) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.171405] (cpp_srvcli) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.175133] (cpp_srvcli) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.175405] (cpp_srvcli) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.176826] (cpp_srvcli) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.181905] (cpp_srvcli) StdoutLine: {'line': b'-- Configuring done (3.1s)\n'}
+[3.209384] (-) TimerEvent: {}
+[3.217035] (cpp_srvcli) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[3.227606] (cpp_srvcli) StdoutLine: {'line': b'-- Build files have been written to: /UROV/build/cpp_srvcli\n'}
+[3.245258] (cpp_srvcli) CommandEnded: {'returncode': 0}
+[3.246074] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'build'}
+[3.247611] (cpp_srvcli) Command: {'cmd': ['/usr/bin/cmake', '--build', '/UROV/build/cpp_srvcli', '--', '-j12', '-l12'], 'cwd': '/UROV/build/cpp_srvcli', 'env': OrderedDict({'HOSTNAME': '119e6a9413fa', 'GIT_ASKPASS': '/vscode/vscode-server/bin/linux-x64/585eba7c0c34fd6b30faac7c62a42050bfbc0086/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/vscode/vscode-server/bin/linux-x64/585eba7c0c34fd6b30faac7c62a42050bfbc0086/bin/helpers/browser.sh', 'HOME': '/home/ubuntu', 'OLDPWD': '/UROV/src/cpp_srvcli/src', 'TERM_PROGRAM_VERSION': '1.108.1', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-3b237718-c133-42fc-a04b-3b40d0d60934.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/vscode/vscode-server/bin/linux-x64/585eba7c0c34fd6b30faac7c62a42050bfbc0086/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/vscode/vscode-server/bin/linux-x64/585eba7c0c34fd6b30faac7c62a42050bfbc0086/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'WAYLAND_DISPLAY': 'vscode-wayland-be0825c9-c2ce-4678-b350-ea63e5495e5e.sock', 'COLCON_PREFIX_PATH': '/UROV/install', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-b1272638-5f1b-4166-a81b-7d7caaa895e6.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/vscode/vscode-server/bin/linux-x64/585eba7c0c34fd6b30faac7c62a42050bfbc0086/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/tmp/user/1000', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-b1272638-5f1b-4166-a81b-7d7caaa895e6.sock","/tmp/.X11-unix/X1","/home/ubuntu/.gnupg/S.gpg-agent"]', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/user/1000/vscode-git-274dccfea8.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-b1272638-5f1b-4166-a81b-7d7caaa895e6.sock', 'AMENT_PREFIX_PATH': '/UROV/install/py_srvcli:/UROV/install/py_pubsub:/UROV/install/cpp_pubsub:/opt/ros/jazzy', 'REMOTE_CONTAINERS_DISPLAY_SOCK': '/tmp/.X11-unix/X1', 'SHELL': '/bin/bash', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/UROV/build/cpp_srvcli', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/UROV/install/py_srvcli/lib/python3.12/site-packages:/UROV/install/py_pubsub/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/UROV/install/cpp_pubsub:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/UROV/install/py_srvcli:/UROV/install/py_pubsub:/opt/ros/jazzy'}), 'shell': False}
+[3.309547] (-) TimerEvent: {}
+[3.367705] (cpp_srvcli) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o\x1b[0m\n'}
+[3.368070] (cpp_srvcli) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o\x1b[0m\n'}
+[3.396584] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/UROV/src/cpp_srvcli/src/add_two_ints_client.cpp:1:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Krclcpp/rclcpp.hpp: No such file or directory\n'}
+[3.396853] (cpp_srvcli) StderrLine: {'line': b'    1 | #include \x1b[01;31m\x1b[K"rclcpp/rclcpp.hpp"\x1b[m\x1b[K\n'}
+[3.396957] (cpp_srvcli) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.397068] (cpp_srvcli) StderrLine: {'line': b'compilation terminated.\n'}
+[3.398212] (cpp_srvcli) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/add_two_ints_client.cpp.o] Error 1\n'}
+[3.398567] (cpp_srvcli) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/client.dir/all] Error 2\n'}
+[3.398696] (cpp_srvcli) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[3.409663] (-) TimerEvent: {}
+[3.510109] (-) TimerEvent: {}
+[3.610502] (-) TimerEvent: {}
+[3.710896] (-) TimerEvent: {}
+[3.811282] (-) TimerEvent: {}
+[3.911654] (-) TimerEvent: {}
+[4.012109] (-) TimerEvent: {}
+[4.112509] (-) TimerEvent: {}
+[4.212864] (-) TimerEvent: {}
+[4.313259] (-) TimerEvent: {}
+[4.413665] (-) TimerEvent: {}
+[4.514122] (-) TimerEvent: {}
+[4.614812] (-) TimerEvent: {}
+[4.715317] (-) TimerEvent: {}
+[4.815709] (-) TimerEvent: {}
+[4.916128] (-) TimerEvent: {}
+[5.016544] (-) TimerEvent: {}
+[5.116971] (-) TimerEvent: {}
+[5.217420] (-) TimerEvent: {}
+[5.317901] (-) TimerEvent: {}
+[5.418304] (-) TimerEvent: {}
+[5.518694] (-) TimerEvent: {}
+[5.619130] (-) TimerEvent: {}
+[5.719525] (-) TimerEvent: {}
+[5.819939] (-) TimerEvent: {}
+[5.920337] (-) TimerEvent: {}
+[6.020795] (-) TimerEvent: {}
+[6.121266] (-) TimerEvent: {}
+[6.221669] (-) TimerEvent: {}
+[6.322093] (-) TimerEvent: {}
+[6.422505] (-) TimerEvent: {}
+[6.522875] (-) TimerEvent: {}
+[6.623301] (-) TimerEvent: {}
+[6.723765] (-) TimerEvent: {}
+[6.824170] (-) TimerEvent: {}
+[6.924594] (-) TimerEvent: {}
+[7.025118] (-) TimerEvent: {}
+[7.125492] (-) TimerEvent: {}
+[7.225882] (-) TimerEvent: {}
+[7.326301] (-) TimerEvent: {}
+[7.426698] (-) TimerEvent: {}
+[7.527214] (-) TimerEvent: {}
+[7.627608] (-) TimerEvent: {}
+[7.728137] (-) TimerEvent: {}
+[7.828542] (-) TimerEvent: {}
+[7.928943] (-) TimerEvent: {}
+[8.029358] (-) TimerEvent: {}
+[8.129793] (-) TimerEvent: {}
+[8.230220] (-) TimerEvent: {}
+[8.330630] (-) TimerEvent: {}
+[8.431071] (-) TimerEvent: {}
+[8.531479] (-) TimerEvent: {}
+[8.631896] (-) TimerEvent: {}
+[8.732339] (-) TimerEvent: {}
+[8.832760] (-) TimerEvent: {}
+[8.933143] (-) TimerEvent: {}
+[9.033578] (-) TimerEvent: {}
+[9.133993] (-) TimerEvent: {}
+[9.234393] (-) TimerEvent: {}
+[9.334804] (-) TimerEvent: {}
+[9.435193] (-) TimerEvent: {}
+[9.535568] (-) TimerEvent: {}
+[9.635984] (-) TimerEvent: {}
+[9.736366] (-) TimerEvent: {}
+[9.764718] (cpp_srvcli) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable server\x1b[0m\n'}
+[9.836541] (-) TimerEvent: {}
+[9.936824] (-) TimerEvent: {}
+[9.958042] (cpp_srvcli) StdoutLine: {'line': b'[ 75%] Built target server\n'}
+[9.959478] (cpp_srvcli) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[9.963232] (cpp_srvcli) CommandEnded: {'returncode': 2}
+[9.972493] (cpp_srvcli) JobEnded: {'identifier': 'cpp_srvcli', 'rc': 2}
+[9.983030] (-) EventReactorShutdown: {}

@@ -1,0 +1,11 @@
+/UROV/build/cpp_srvcli/CMakeFiles/uninstall.dir
+/UROV/build/cpp_srvcli/CMakeFiles/cpp_srvcli_uninstall.dir
+/UROV/build/cpp_srvcli/CMakeFiles/server.dir
+/UROV/build/cpp_srvcli/CMakeFiles/client.dir
+/UROV/build/cpp_srvcli/CMakeFiles/test.dir
+/UROV/build/cpp_srvcli/CMakeFiles/edit_cache.dir
+/UROV/build/cpp_srvcli/CMakeFiles/rebuild_cache.dir
+/UROV/build/cpp_srvcli/CMakeFiles/list_install_components.dir
+/UROV/build/cpp_srvcli/CMakeFiles/install.dir
+/UROV/build/cpp_srvcli/CMakeFiles/install/local.dir
+/UROV/build/cpp_srvcli/CMakeFiles/install/strip.dir

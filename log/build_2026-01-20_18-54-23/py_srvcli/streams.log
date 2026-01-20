@@ -1,0 +1,42 @@
+[1.525s] Invoking command in '/UROV/src/py_srvcli': PYTHONPATH=/UROV/build/py_srvcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/UROV/install/py_srvcli/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /UROV/build/py_srvcli/build install --record /UROV/build/py_srvcli/install.log --single-version-externally-managed install_data
+[2.006s] running egg_info
+[2.007s] creating ../../build/py_srvcli/py_srvcli.egg-info
+[2.036s] writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[2.036s] writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[2.037s] writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[2.037s] writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[2.037s] writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[2.038s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[2.098s] reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[2.098s] adding license file 'LICENSE'
+[2.099s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[2.099s] running build
+[2.100s] running build_py
+[2.100s] creating /UROV/build/py_srvcli/build
+[2.100s] creating /UROV/build/py_srvcli/build/lib
+[2.100s] creating /UROV/build/py_srvcli/build/lib/py_srvcli
+[2.100s] copying py_srvcli/__init__.py -> /UROV/build/py_srvcli/build/lib/py_srvcli
+[2.100s] copying py_srvcli/service_member_function.py -> /UROV/build/py_srvcli/build/lib/py_srvcli
+[2.101s] copying py_srvcli/client_member_function.py -> /UROV/build/py_srvcli/build/lib/py_srvcli
+[2.101s] running install
+[2.114s] running install_lib
+[2.144s] creating /UROV/install/py_srvcli/lib/python3.12/site-packages/py_srvcli
+[2.145s] copying /UROV/build/py_srvcli/build/lib/py_srvcli/__init__.py -> /UROV/install/py_srvcli/lib/python3.12/site-packages/py_srvcli
+[2.145s] copying /UROV/build/py_srvcli/build/lib/py_srvcli/service_member_function.py -> /UROV/install/py_srvcli/lib/python3.12/site-packages/py_srvcli
+[2.145s] copying /UROV/build/py_srvcli/build/lib/py_srvcli/client_member_function.py -> /UROV/install/py_srvcli/lib/python3.12/site-packages/py_srvcli
+[2.147s] byte-compiling /UROV/install/py_srvcli/lib/python3.12/site-packages/py_srvcli/__init__.py to __init__.cpython-312.pyc
+[2.147s] byte-compiling /UROV/install/py_srvcli/lib/python3.12/site-packages/py_srvcli/service_member_function.py to service_member_function.cpython-312.pyc
+[2.148s] byte-compiling /UROV/install/py_srvcli/lib/python3.12/site-packages/py_srvcli/client_member_function.py to client_member_function.cpython-312.pyc
+[2.150s] running install_data
+[2.150s] creating /UROV/install/py_srvcli/share/ament_index
+[2.150s] creating /UROV/install/py_srvcli/share/ament_index/resource_index
+[2.150s] creating /UROV/install/py_srvcli/share/ament_index/resource_index/packages
+[2.150s] copying resource/py_srvcli -> /UROV/install/py_srvcli/share/ament_index/resource_index/packages
+[2.151s] copying package.xml -> /UROV/install/py_srvcli/share/py_srvcli
+[2.151s] running install_egg_info
+[2.183s] Copying ../../build/py_srvcli/py_srvcli.egg-info to /UROV/install/py_srvcli/lib/python3.12/site-packages/py_srvcli-0.0.0-py3.12.egg-info
+[2.186s] running install_scripts
+[2.416s] Installing client script to /UROV/install/py_srvcli/lib/py_srvcli
+[2.416s] Installing service script to /UROV/install/py_srvcli/lib/py_srvcli
+[2.417s] writing list of installed files to '/UROV/build/py_srvcli/install.log'
+[2.467s] Invoked command in '/UROV/src/py_srvcli' returned '0': PYTHONPATH=/UROV/build/py_srvcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/UROV/install/py_srvcli/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /UROV/build/py_srvcli/build install --record /UROV/build/py_srvcli/install.log --single-version-externally-managed install_data
