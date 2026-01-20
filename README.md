@@ -17,7 +17,7 @@ https://docs.ros.org/en/jazzy/index.html
 
 **Link to Northwestern's Master of Science in Robotics (MSR) website**
 
-https://nu-msr.github.io/navigation/index.html
+https://nu-msr.github.io
 
 ### Notes
 Currently using ROS2 Jazzy, but might have to roll back to ROS2 Humble if needed
