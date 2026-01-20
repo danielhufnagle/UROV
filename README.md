@@ -10,9 +10,15 @@
 3. Click "Reopen in Container"
 You should now be in the docker container with ROS 2 installed.
 
-### Additional resources + notes
-**Link to documentation**
+### Additional resources
+**Link to ROS 2 documentation**
+
 https://docs.ros.org/en/jazzy/index.html
 
+**Link to Northwestern's Master of Science in Robotics (MSR) website**
+
+https://nu-msr.github.io/navigation/index.html
+
+### Notes
 Currently using ROS2 Jazzy, but might have to roll back to ROS2 Humble if needed
 
