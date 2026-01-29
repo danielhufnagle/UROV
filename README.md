@@ -39,9 +39,18 @@ echo "source /opt/ros/jazzy/setup.bash" > .bashrc && source .bashrc
 ```
 
 5. Make sure everything works
+
+Run the following in a terminal
 ```bash
 ros2 run demo_nodes_cpp talker
 ```
+
+Open another terminal and run the command below
+```bash
+ros2 run demo_nodes_py listener
+```
+
+You should see the ROS 2 talker and listener working. 
 
 #### Linux (Not Ubuntu 24.04 LTS)
 The ROS 2 binaries that we use are only built for Ubuntu LTS. DO NOT TRY TO BUILD THEM FROM SOURCE. Instead we will just use something called distrobox to run the instance.
@@ -66,8 +75,27 @@ distrobox create -n ROS -i ubuntu:noble
 distrobox enter ROS
 ```
 
-4. Follow the instructions for Ubuntu 24.04 LTS
+4. Follow the instructions for Ubuntu 24.04 LTS + additional notes
 
+Note that you will have to enter your distrobox container every time you want to work with ROS. You might also want to be able to run commands on your host system while in your container (i.e. things like spwaning VSCode, Neovim, etc.) To run a command on your host system while in a distrobox continer, prepend whatever command you will run with `distrobox-host-exec`. Examples below
+```bash
+distrobox-host-exec code . # open VSCode
+distrobox-host-exec nvim . # open Neovim
+```
+You will also want to not run this line either
+```bash
+echo "source /opt/ros/jazzy/setup.bash" > .bashrc && source .bashrc
+```
+Instead, go into your shell's configuration file (`~/.bashrc`, `~/.zshrc`, etc) and add this alias
+```bash
+ros-init() {
+    source /opt/ros/jazzy/setup.bash # replace .bash with your shell if you are running a different shell (zsh)
+}
+```
+An then source it
+```bash
+source .bashrc # or .zshrc, etc.
+```
 
 #### Windows
 ROS 2 technically has binaries for Windows 10 (not 11), but don't bother with them. Instead, you will have to run a Linux environment somehow.
@@ -124,6 +152,7 @@ This is very subject to change as we start making more progress
 https://docs.ros.org/en/jazzy/index.html
 
 **Link to ROS 2 Jazzy Installation Guide**
+
 https://docs.ros.org/en/jazzy/Installation/Ubuntu-Install-Debs.html
 
 **Link to Northwestern's Master of Science in Robotics (MSR) website**
