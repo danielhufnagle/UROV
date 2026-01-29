@@ -50,7 +50,11 @@ Open another terminal and run the command below
 ros2 run demo_nodes_py listener
 ```
 
-You should see the ROS 2 talker and listener working. 
+You should see the ROS 2 talker and listener working. The next thing to test is if GUI programs run. Run
+```
+ros2 run rviz2 rviz2
+``` 
+And you should hopefully see a GUI window pop up. Just close out of it for now. With this, we are all set up.
 
 #### Linux (Not Ubuntu 24.04 LTS)
 The ROS 2 binaries that we use are only built for Ubuntu LTS. DO NOT TRY TO BUILD THEM FROM SOURCE. Instead we will just use something called distrobox to run the instance.
