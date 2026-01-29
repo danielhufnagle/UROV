@@ -82,17 +82,17 @@ Note that you will have to enter your distrobox container every time you want to
 distrobox-host-exec code . # open VSCode
 distrobox-host-exec nvim . # open Neovim
 ```
-You will also want to not run this line either
+You also don't want to run this line either
 ```bash
 echo "source /opt/ros/jazzy/setup.bash" > .bashrc && source .bashrc
 ```
-Instead, go into your shell's configuration file (`~/.bashrc`, `~/.zshrc`, etc) and add this alias
+Instead, go into your shell's configuration file (`~/.bashrc`, `~/.zshrc`, etc) and add this function
 ```bash
 ros-init() {
     source /opt/ros/jazzy/setup.bash # replace .bash with your shell if you are running a different shell (zsh)
 }
 ```
-An then source it
+And then source it
 ```bash
 source .bashrc # or .zshrc, etc.
 ```
