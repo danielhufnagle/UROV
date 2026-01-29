@@ -1,9 +1,0 @@
-{
-  "name": "jazzy desktop",
-  "dockerFile": "Dockerfile",
-  "runArgs": [
-    "--privileged"
-  ],
-  "workspaceMount": "source=${localWorkspaceFolder},target=/${localWorkspaceFolderBasename},type=bind",
-  "workspaceFolder": "/${localWorkspaceFolderBasename}"
-}
