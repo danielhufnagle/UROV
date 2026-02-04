@@ -13,9 +13,9 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='daniel-hufnagle',
-    maintainer_email='daniel-hufnagle@todo.todo',
-    description='TODO: Package description',
+    maintainer='Daniel Hufnagle',
+    maintainer_email='danielhufnagle2027@u.northwestern.edu',
+    description='Control turtlesim with a joystick',
     license='Apache-2.0',
     extras_require={
         'test': [
@@ -24,6 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'turtlesim_joystick = turtlesim_joystick.turtlesim_joystick_function:main'
         ],
     },
 )

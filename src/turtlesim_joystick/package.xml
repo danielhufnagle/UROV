@@ -3,8 +3,8 @@
 <package format="3">
   <name>turtlesim_joystick</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="daniel-hufnagle@todo.todo">daniel-hufnagle</maintainer>
+  <description>Control turtlesim with a joystick</description>
+  <maintainer email="danielhufnagle2027@u.northwestern.edu">Daniel Hufnagle</maintainer>
   <license>Apache-2.0</license>
 
   <test_depend>ament_copyright</test_depend>
