@@ -1,0 +1,5 @@
+# ignore the following directories
+.DS_Store
+build/
+install/
+log/

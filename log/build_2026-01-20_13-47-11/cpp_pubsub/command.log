@@ -1,6 +1,0 @@
-Invoking command in '/UROV/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /UROV/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/UROV/install/cpp_pubsub
-Invoked command in '/UROV/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /UROV/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/UROV/install/cpp_pubsub
-Invoking command in '/UROV/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /UROV/build/cpp_pubsub -- -j12 -l12
-Invoked command in '/UROV/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /UROV/build/cpp_pubsub -- -j12 -l12
-Invoking command in '/UROV/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /UROV/build/cpp_pubsub
-Invoked command in '/UROV/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /UROV/build/cpp_pubsub

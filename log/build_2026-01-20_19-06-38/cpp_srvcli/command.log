@@ -1,4 +1,0 @@
-Invoking command in '/UROV/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/UROV/install/py_srvcli:/UROV/install/py_pubsub:/opt/ros/jazzy /usr/bin/cmake /UROV/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/UROV/install/cpp_srvcli
-Invoked command in '/UROV/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/UROV/install/py_srvcli:/UROV/install/py_pubsub:/opt/ros/jazzy /usr/bin/cmake /UROV/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/UROV/install/cpp_srvcli
-Invoking command in '/UROV/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/UROV/install/py_srvcli:/UROV/install/py_pubsub:/opt/ros/jazzy /usr/bin/cmake --build /UROV/build/cpp_srvcli -- -j12 -l12
-Invoked command in '/UROV/build/cpp_srvcli' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/UROV/install/py_srvcli:/UROV/install/py_pubsub:/opt/ros/jazzy /usr/bin/cmake --build /UROV/build/cpp_srvcli -- -j12 -l12
