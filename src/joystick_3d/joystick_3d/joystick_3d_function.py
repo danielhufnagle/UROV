@@ -24,7 +24,7 @@ class Joy3D(Node):
         # 5 - TRIGGERRIGHT
 
         twist.linear.x = msg.axes[0] * 2.0 # move left and right moving left joystick left and right
-        #twist.linear.y = msg.axes[] * 2.0 # move up and down
+        twist.linear.y = msg.axes[4] * 2.0 - msg.axes[5] * 2.0 # move up and down
         twist.linear.z = msg.axes[1] * 2.0 # move forward and backwards
         twist.angular.x = msg.axes[3] * 2.0 # tilt up and down
         twist.angular.y = msg.axes[2] * 2.0 # look left and right
