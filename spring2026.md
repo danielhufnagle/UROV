@@ -2,7 +2,7 @@
 
 This is our current list of goals for this quarter. These don't need to be followed in exact order, but we should aim for all of these to be done as fast as possible.
 
-- [ ] Get 3 dimensional twist generation from joystick input working
+- [x] Get 3 dimensional twist generation from joystick input working
 - [ ] Get ROS2 running on the raspberry pi (flash Ubuntu 24.04 onto it)
 - [ ] Drive motors with ROS (be prepared to drive ESCs directly off of the Pi, as the flight controller might not get here in time)
 - [ ] Drive motors according to the joystick input
